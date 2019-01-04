@@ -9,7 +9,9 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
   <!--Style CSS-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
   <link rel="stylesheet" href="css/styles.css">
+  
 
   <title>Teen Titans!</title>
 </head>
@@ -67,15 +69,17 @@
           <div class="container">
             <div class="row align-items-center">
               <div class="col-md-6 offset-md-6 text-center text-md-right">
-                <h1 class="text-lg-left">Teens Titans</h1>
-                <p class="d-none d-md-block text-justify">Robin, Starfire, Raven, Chico Bestia y Cyborg, quienes viven
+                <h1 class="animated infinite bounce  text-lg-left" data-aos="fade-down">Teens Titans</h1>
+                <p class="d-none d-md-block text-justify" data-aos="fade-left">Robin, Starfire, Raven, Chico Bestia y Cyborg, quienes viven
                   increíbles y divertidísimas aventuras
                   Estos chicos deben salvar el mundo mientras conviven sin la supervisión de un adulto. Después de
                   todo,
                   podrán ser superhéroes pero tienen que lavar la ropa... ¡aunque usen sus súper poderes para hacerlo!
                 </p>
-                <a href="#" class="btn btn-outline-light">Quiero ser super héroe</a>
-                <button type="button" class="btn btn-titan">Misiones</button>
+                <div data-aos="fade-down">
+                <a href="#" class="btn btn-outline-light" >Quiero ser super héroe</a>
+                <button type="button" class="btn btn-titan" >Misiones</button>
+              </div>
               </div>
             </div>
           </div>
@@ -95,7 +99,7 @@
       </div>
       <div class="row">
         <div class="col-12 col-md-4 col-lg-4 mb-4">
-          <div class="card">
+          <div class="card" data-aos="flip-left">
             <img src="assets/perfil/robin-image.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title text-center">Robin</h5>
@@ -107,7 +111,7 @@
           </div>
         </div>
         <div class="col-12 col-md-4 col-lg-4 mb-4">
-          <div class="card">
+          <div class="card" data-aos="flip-right">
             <img src="assets/perfil/starfire-image.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title text-center">Starfire</h5>
@@ -120,7 +124,7 @@
           </div>
         </div>
         <div class="col-12 col-md-4 col-lg-4 mb-4">
-          <div class="card">
+          <div class="card" data-aos="flip-left">
             <img src="assets/perfil/raven-image.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title text-center">Raven</h5>
@@ -133,7 +137,7 @@
       </div>
       <div class="row">
         <div class="col-12 col-md-4 col-lg-4  mb-4">
-          <div class="card">
+          <div class="card" data-aos="flip-right">
             <img src="assets/perfil/cyborg-image.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title text-center">Cyborg</h5>
@@ -144,7 +148,7 @@
           </div>
         </div>
         <div class="col-12 col-md-4 col-lg-4  mb-4">
-          <div class="card">
+          <div class="card" data-aos="flip-left">
             <img src="assets/perfil/boy-image.jpg" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title text-center">Beast Boy</h5>
@@ -159,7 +163,7 @@
   </section>
   <!--/Team-->
   <!-- Lugar y fecha -->
-  <section id="place-time">
+  <section id="place-time" >
     <div class="container-fluid">
       <div class="row">
         <div class="col-12 col-lg-6 pl-0 pr-0 ">
@@ -167,11 +171,11 @@
         </div>
         <div class="col-12 col-lg-6 pt-4 pb-4 align-self-center">
           <h2>Salvando al mundo</h2>
-          <p class="text-justify">
+          <p class="text-justify" data-aos="fade-left">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat eveniet harum dicta ea? Inventore vitae
             recusandae veritatis dolorem id maiores alias eos assumenda iure sunt minus architecto, deserunt illo quo!
           </p>
-          <a class="btn btn-outline-light" href="#">Conoce más</a>
+          <a class="btn btn-outline-light" href="#" data-aos="fade-up">Conoce más</a>
         </div>
       </div>
     </div>
@@ -179,12 +183,12 @@
       <div class="row">
         <div class="col-12 col-lg-6 pt-4 pb-4 align-self-center">
           <h2>Conociendo a los jovenes titanes </h2>
-          <p class="text-justify">
+          <p class="text-justify" data-aos="fade-right">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem similique, expedita amet blanditiis et,
             accusamus quis neque saepe hic doloremque, qui repellat minus! Odio, laboriosam odit ut aspernatur
             voluptatibus saepe.
           </p>
-          <a class="btn btn-outline-light" href="#">Conoce más</a>
+          <a class="btn btn-outline-light" href="#" data-aos="fade-up">Conoce más</a>
         </div>
         <div class="col-12 col-lg-6 pl-0 pr-0 ">
           <img src="assets/images/teentitanstwo.jpg" alt="Honolulu" />
@@ -243,7 +247,7 @@
   <footer id="footer" class="mt-2">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-md-4 col-lg-4">
+        <div class="col-12 col-md-4 col-lg-4" >
           <figure><img src="assets/images/teentitans-logo.png" alt=""></figure>
         </div>
         <div class="col-12 col-md-4 col-lg-4 enlaces">
@@ -278,6 +282,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="js/main.js"></script>
 </body>
 
